@@ -1,0 +1,114 @@
+.hidden {
+    display: none !important;
+}
+main {
+    max-width: 960px;
+    margin: auto;
+}
+h1, h2 {
+    text-align: center;
+}
+article {
+    margin: 3em auto;
+}
+.container {  display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1em 1em;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-areas:
+    "Nr-1 Nr-2 Nr-3"
+    "Nr-4 Nr-5 Nr-6"
+    "Nr-7 Nr-8 Nr-9"
+    "Nr-10 Nr-0 Nr-11";
+    min-height: 60vh;
+    max-width: 500px;
+    margin: auto;
+}
+
+.Nr-1 { grid-area: Nr-1; }
+
+.Nr-2 { grid-area: Nr-2; }
+
+.Nr-3 { grid-area: Nr-3; }
+
+.Nr-4 { grid-area: Nr-4; }
+
+.Nr-5 { grid-area: Nr-5; }
+
+.Nr-6 { grid-area: Nr-6; }
+
+.Nr-7 { grid-area: Nr-7; }
+
+.Nr-8 { grid-area: Nr-8; }
+
+.Nr-9 { grid-area: Nr-9; }
+
+.Nr-0 { grid-area: Nr-0; }
+
+.Nr-10 { grid-area: Nr-10; }
+
+.Nr-11 { grid-area: Nr-11; }
+
+button {
+    padding: 15px;
+    border: none;
+}
+table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+td {
+    padding: 5px;
+}
+td:nth-child(1), td:nth-child(3) {
+    text-align: right;
+}
+td:nth-child(4) {
+    text-align: center;
+}
+#answer span {
+    padding: 10px;
+}
+.danger {
+    background-color: #b98484;
+}
+.save {
+    background-color: #96c2a4;
+}
+.dark {
+    background-color: #2a2a2a;
+    border-radius: 15%;
+    padding: 3em 5em;
+    color: white;
+    min-height: 60vh;
+}
+#question {
+    background: white;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0px 0px 14px inset black;
+}
+td, th {
+    padding: 10px;
+    border: 1px solid;
+}
+.heart.green{
+    filter: invert(59%) sepia(56%) saturate(454%) hue-rotate(80deg) brightness(110%) contrast(105%);
+}
+.heart.red{
+    filter: invert(30%) sepia(78%) saturate(2816%) hue-rotate(337deg) brightness(92%) contrast(96%);
+}
+.heart {
+    max-width: 25px;
+}
+#life {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}

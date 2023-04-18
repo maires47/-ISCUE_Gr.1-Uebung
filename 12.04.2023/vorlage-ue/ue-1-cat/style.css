@@ -1,0 +1,12 @@
+
+section {
+    flex: 1 1 47%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #ccc;
+    margin: 5px;
+}
+
+section p {
+    padding: 5px;
+}
+
