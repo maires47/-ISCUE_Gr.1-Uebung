@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio</title>
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li>
+            <a href="../video/index.html">Video</a>
+        </li>
+        <li>
+            <a href="../audio/index.html">Audio</a>
+        </li>
+        <li>
+            <a href="../dragDrop/index.html">Drag & Drop</a>
+        </li>
+        <li>
+            <a href="../geolocation/index.html">Geolocation</a>
+        </li>
+    </ul>
+</nav>
+<main class="audio">
+
+    <article class="block border">
+    <h2>Verwendung von Audioeffekten</h2>
+        <audio controls id="audioEffect">
+            <source src="file_example.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </article>
+
+    <article class="block border">
+        <h2>Synchronisation von Audio und Video</h2>
+        <video controls id="myVideo" muted>
+            <source src="../video/sample_960x400_ocean_with_audio.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        <audio controls id="syncAudio">
+            <source src="file_example.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </article>
+
+    <article class="block border">
+        <h2>Verwendung von Audioanalyse</h2>
+        <audio controls id="audioanalyse">
+            <source src="file_example.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <canvas id="myCanvas" width="600" height="300"></canvas>
+    </article>
+
+    <article class="border last">
+        <h2>Generierung von Audio</h2>
+        <button id="generateAudioButton">Audio generieren</button>
+        <button id="stopAudioButton">Audio stoppen</button>
+    </article>
+
+
+</main>
+
+    <script>
+        // ToDo
+
+        // Funktion zum Erstellen der Kurve für den WaveShaper-Effekt
+        function makeDistortionCurve(amount) {
+
+        }
+
+
+        /* Synchronisation von Audio und Video */
+        // ToDo
+
+        /* Verwendung von Audioanalyse */
+        // ToDo
+
+        // Funktion zum Zeichnen der Frequenzbänder
+        function draw() {
+            // ToDo
+        }
+        draw();
+
+        /* Generierung von Audio */
+        // ToDo
+    </script>
+
+</body>
+</html>

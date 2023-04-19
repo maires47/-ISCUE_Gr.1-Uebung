@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Karte mit Geolocation</title>
+    <!-- Leaflet CSS-Datei einbinden -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li>
+            <a href="../video/index.html">Video</a>
+        </li>
+        <li>
+            <a href="../audio/index.html">Audio</a>
+        </li>
+        <li>
+            <a href="../dragDrop/index.html">Drag & Drop</a>
+        </li>
+        <li>
+            <a href="../geolocation/index.html">Geolocation</a>
+        </li>
+    </ul>
+</nav>
+<main>
+    <article>
+        <p>Click the button to get your coordinates:</p>
+
+        <!-- Button, um die Geolocation abzurufen -->
+        <button onclick="getLocation()">Get Location</button>
+        <p id="coordinates"></p>
+
+        <!-- Div-Container, um die Karte anzuzeigen -->
+        <div id="mapid" style="width: 100%; height: 400px;"></div>
+    </article>
+</main>
+
+<!-- Leaflet JavaScript-Datei einbinden -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script>
+    // Funktion, um die Geolocation abzurufen
+    function getLocation() {
+        // ToDo
+    }
+
+    // Funktion, um die Position auf der Karte anzuzeigen
+    function showPosition(position) {
+        // ToDo
+    }
+</script>
+</body>
+</html>
